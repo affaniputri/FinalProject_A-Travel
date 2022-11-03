@@ -1,0 +1,54 @@
+- Menu Todo
+1. Tombol submit -> ketika tombol submit diclick akan menjalankan fungsi submit(), dan semua data yang sudah diisi oleh user di form akan di tangkap dan dimasukan kedalam variabel, setelah itu program akan menjalankan fungsi IF. Jika agenda atau tanggalor atau deskripsi diisi oleh string kosong maka program akan memunculkan popup yang berisi tulisan Semua Form Harus Di isi!, jika agenda atau tanggalor atau deskripsi sudah diisi semua maka data akan dimasukan kedalam objek data dan mengSET local storage dengan key "Data" yang valuenya Objek yang berisi data yang sudah dimasukan oleh user dan memunculkan popup yg berisi tulisan "Data berhasil di tambahkan".
+2. Tombol Hapus localstorage -> ketika tombol hapus localstorage diclick akan menjalankan funsi hapus(), dan program akan menghapus data yang ada dilocal storage dengan key-nya "data".
+3. Tombol Update Data -> ketika tombol update data diclick akan memunculkan sebuah modal yang berisi form untuk mengupdate data,  dan semua data yang sudah diisi oleh user di form akan di tangkap dan dimasukan kedalam variabel, setelah itu program akan menjalankan fungsi IF. Jika agenda atau tanggalor atau deskripsi diisi oleh string kosong maka program akan memunculkan popup yang berisi tulisan "Semua Form Harus Di isi!", jika agenda atau tanggalor atau deskripsi sudah diisi semua maka data akan dimasukan kedalam objek data dan mengSET local storage dengan key "Data" yang valuenya Objek yang berisi data yang sudah dimasukan oleh user dan memunculkan popup yg berisi tulisan "Data berhasil di tambahkan".
+4. Tombol Klik Untuk Memunculkan Data -> ketika tombol diclick akan menjalankan fungsi tampil_data(), dan program akan mengambil data yang ada di localstorage dengan key "data" yang valuenya ada string, kemudian program akan mengubah value string tersebut menjadi objek dan mengakses property objek tersebut dan memasukanya ke dalam sebuah variabel setelah itu variabel tersebut diset kedalam element html yg sudah kita seleksi menggunakan id.
+
+Nama - nama funsi
+1. document.getElementById("").value -> mengambil value dari form yang sudah diisi oleh user.
+2. alert() -> memunculkan popup.
+3. localStorage.setItem() -> memasukan data ke dalam local storage.
+4. JSON.stringify() -> mengubah objek menjadi string.
+5. localStorage.getItem() -> mengambil data dari local storage.
+6. JSON.parse() -> mengubah string menjadi objek.
+7. localStorage.removeItem() -> menghapus data yang ada di local storage.
+
+! IMPORTANT ! -> blog dengan tombol 'lihat selengkapnya' akan menuju halaman baru
+spreadsheet contact us:
+https://docs.google.com/spreadsheets/d/1mv2gyVM9tphoD7H31FMEP-8itD4jKa2oA1vFDCDhVvM/edit#gid=0
+
+credit foto:
+https://img.freepik.com/free-photo/fuji-mountain-cherry-blossoms-spring-japan_335224-225.jpg?auto=format&h=200
+https://fffacademy.com/wp-content/uploads/2022/07/france-paris-eiffel-tower-300x200.jpg
+https://static.vecteezy.com/system/resources/thumbnails/010/294/354/small/brandenburg-gate-in-berlin-germany-photo.jpg
+https://www.yukke.id/wp-content/uploads/2022/08/Singapore-Flyer_2-300x200.jpg
+https://www.itl.cat/pngfile/big/46-466832_free-inspirational-travel-desktop-amp-phone-wallpaper-traveling.jpg
+https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsJTIwYWVzdGhldGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80
+https://1.bp.blogspot.com/-UBFr6ywKsnk/Xz9-I8O73pI/AAAAAAAAAxI/eW51GdyBgRsRT6sGSj1do5Z0C6KQpwdIQCLcBGAsYHQ/s0/Studio%2BGhibli.jpg
+https://ichef.bbci.co.uk/news/640/cpsprodpb/3293/production/_110974921_p08191j5.jpg
+https://raja-wisata.com/wp-content/uploads/2020/10/pulau-bintang-atre.jpg
+https://pulauseribu.co.id/wp-content/uploads/detinasi-pulau-putri-jakarta.jpg
+https://1.bp.blogspot.com/-e4uZZRhN9dg/VCuaUcSRyKI/AAAAAAAABXM/9u-srIGoQGs/s300/paket%2Bhongkong.JPG
+https://www.travelingajadulu.com/wp-content/uploads/2020/02/panorama-3327550_1920-1140x600.jpg
+https://q-xx.bstatic.com/xdata/images/hotel/max300/302432733.jpg?k=03de12015f63603bbf41eba8571685fe54849d4f506349572727cecfc4b1b80d&o=
+https://akcdn.detik.net.id/community/media/visual/2021/10/17/arab-saudi-longgarkan-prokes-salat-di-masjidil-haram-bisa-rapat-lagi-4_169.jpeg?w=780&q=90
+https://img2.utiket.com/images/touristplaces/akkarena-beach.jpg
+https://jepanginfo.co.id/media/upload/Disneyland.png
+https://www.movienewsletters.net/photos/336682H3.jpg
+https://alowisata.com/menara-pisa
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA10thkG.img?h=200&w=300&m=6&q=60&o=f&l=f
+https://static.vecteezy.com/system/resources/thumbnails/004/040/060/small/great-outstanding-neuschwanstein-castle-standing-on-the-plain-with-trees-below-and-little-town-on-background-photo.jpg
+https://www.priyadiabadi.com/go/wp-content/uploads/2020/05/5ea92291f193d-300x200.jpg
+https://thediplomat.com/wp-content/uploads/2017/10/sizes/td-story-s-1/thediplomat-16609123014_6462c1cda8_k.jpg
+
+template sertifikat:
+https://www.canva.com/id_id/contoh/EAE7Of8QC3s-penghargaan-hijau-dedaunan-teh-lucu-piagam/
+https://www.canva.com/id_id/contoh/EAE6RAl0h2o-putih-geometric-piagam-penghargaan-panitia-webinar-certificate/
+https://www.canva.com/id_id/contoh/EAEzItUMOQo-modern-gradient-sertifikat-piagam-penghargaan-pemenang-lomba-cerdas-cermat/
+https://www.canva.com/id_id/contoh/EAFKN-ivTKU-putih-abu-elegant-professional-sertifikat/
+
+source berita:
+https://hot.detik.com/culture/d-5927843/taman-studio-ghibli-dibuka-2023-ini-bocoran-fotonya
+https://www.detik.com/sumut/wisata/d-6363711/berwisata-di-pulau-putri-yang-berbatasan-langsung-dengan-singapura
+https://www.liputan6.com/lifestyle/read/5109153/rekomendasi-tempat-wisata-dan-hiburan-seru-di-hong-kong
+https://travel.detik.com/travel-news/d-6332963/arab-saudi-jadi-negara-paling-banyak-dikunjungi-turis
